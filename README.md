@@ -21,7 +21,7 @@ I've worked on all the requirements given on this project.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://vic778.github.io/capston-project/)
 
 [Presentation Link](https://www.loom.com/share/e379810cc0f64307b535867bdc456e73)
 
