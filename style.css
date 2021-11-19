@@ -147,7 +147,7 @@ li {
 }
 
 .third_section_title {
-  font-size: 16pt;
+  font-size: 20pt;
   font-weight: 500;
   color: #272a31;
 }
@@ -189,6 +189,7 @@ li {
 
 .Development_year {
   color: #d3d3d3;
+  font-size: x-large;
 }
 
 .Development_content {
@@ -303,12 +304,15 @@ li {
 
 .campaign_action {
   border: 2px solid #ec5242;
-  height: 40px;
+  height: 35px;
   margin: 0;
   padding: 10px;
   margin-top: 5px;
   margin-left: 15px;
-  width: 120px;
+}
+
+.campaign_action a {
+  color: #ec5242;
 }
 
 .campaign_action:hover {
@@ -404,7 +408,6 @@ li {
   background-image: url(./images/second_texture.jpg);
   background-size: cover;
   height: 500px;
-  margin: 10px;
   align-items: center;
   padding: 15px;
 }
@@ -879,6 +882,7 @@ li {
     list-style: none;
     text-align: center;
     width: 100%;
+    color: #ec5242;
   }
 
   .mobile_link_items {
@@ -1051,15 +1055,26 @@ li {
   /* PARTNER SECTION */
   .forth_section {
     margin-top: 1300px;
+    background-color: rgb(252, 247, 247);
   }
 
   .partner_list {
     margin: 10px;
+    text-decoration: #000;
+   
   }
 
   .partner_list_container {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .partner_list a {
+    color: #0a0a0a;
+  }
+
+  .partner_title {
+    color: #000;
   }
 
   /* FOOTER */
